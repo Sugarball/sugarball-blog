@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://sugarball.netlify.com',
+  title: 'Blog by Jayden Gu',
+  subtitle: 'I am a web developer. I share my thinking about code here',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-101851838-2',
   menu: [
     {
       label: 'Articles',
@@ -23,16 +23,16 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Jayden Gu',
+    photo: '/photo.png',
+    bio: 'I am a web developer. I share my thinking about code here.',
     contacts: {
-      email: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
       rss: '#',
-      vkontakte: '#'
+      vkontakte: '#',
+      email: 'sugarball@foxmail.com',
+      github: 'https://github.com/Sugarball',
     }
   }
 };

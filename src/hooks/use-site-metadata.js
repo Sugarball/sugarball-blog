@@ -2,6 +2,10 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
 const useSiteMetadata = () => {
+  // telegram
+  // twitter
+  // rss
+  // vkontakte
   const { site } = useStaticQuery(
     graphql`
       query SiteMetaData {
@@ -13,11 +17,7 @@ const useSiteMetadata = () => {
               photo
               contacts {
                 email
-                telegram
-                twitter
                 github
-                rss
-                vkontakte
               }
             }
             menu {
@@ -39,3 +39,4 @@ const useSiteMetadata = () => {
 };
 
 export default useSiteMetadata;
+
